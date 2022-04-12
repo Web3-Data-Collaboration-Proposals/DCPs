@@ -19,7 +19,7 @@ Github:
 
 ## Data feature specification
 
-### IF_Token_Balance_Lt_650
+### IF_FANS_TOKEN_THRESHOLD
 
 **Description**
 
