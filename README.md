@@ -1,4 +1,4 @@
-# Data Collaboration Proposals(DCPs)
+# Data Collaboration Protocols(DCPs)
 
 ## Introduction
 
