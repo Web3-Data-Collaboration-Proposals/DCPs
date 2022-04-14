@@ -54,9 +54,7 @@ To calculate the real-time holding balance, reduce the balance of the “from”
 
 ## Author & contributors
 
-Impossible Finance is the go-to crypto investment platform that empowers you with high-quality, fair and accessible crypto opportunities. 
-
-Impossible Finance simplifies DeFi so you can enjoy fairer investing, cheaper trading and better yields through our accelerator, launchpad, and swap platform.
+Impossible Finance is a multi-chain incubator, launchpad, and swap platform led by Ex-Binance & DeFi veterans. It offers a robust product-first ecosystem that supports top-tier blockchain projects to targeted user audiences. With extensive support from key leaders in the crypto industry, Impossible Finance simplifies DeFi for users to enjoy fairer investing, cheaper trading and better yields.
 
 https://lintr.ee/impossiblefi
 
