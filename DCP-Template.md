@@ -7,50 +7,25 @@ status: Pending/In Auditing/Integration/Published/Revoked
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 ---
 
-## Summary
+# Proposal structure [Template]
+---
 
-Name: Your protocol / product / project name
+## Abstract
+Purpose defines at a high level. Address what is the problem this DCP going to solve.
 
-Website:
+## Motivation & rationales
+Why is this problem important, and what benefits can it bring to the Web3 community.
 
-Github:
+## Specification
+Describe the detail to let DCP readers understand: 
+**Definition** - What is the data you want to collaborate on, and what does that represent in the business/product logic.
+**Data schema** - what data structure to be decoded.
+**Data source** - What is the data source so that other aggregators/integrators can find the data you want to collaborate with.
+***Backwards Compatibility** - Please address if this is an upgraded version of the DCP.
 
-Other infos:
 
-## Description
+### Author & contributors
+Please write down your name, Web3 community will appreciate anyone who generated positive contributions to the community. Also, leave contact information so that community can reach out to you and your team if there is any question/add-on/cooperation.
 
-Give a brief description to your protocol / product / project.
-
-## Data feature specification
-
-**I. xxxxx**
-
-**Description**
-
-Describe your first data.
-
-**Condition / formula**
-
-Write down your condition/formula used to analyze data if you have.
-
-**Data source**
-
-- contracts
-- theGraph (optional)
-- other apis (optional)
-
-**Data decoding**
-
-How to decode and demonstrate your data from data source.
-
-**II. xxxxx**
-
-Same as above.
-
-## Data query
-
-We'll provide this part after your commit.
-
-## Reference
-
-## Contributor
+### Reference / Citation
+Do not forget to give credit to creators whose work your proposal builds upon.
