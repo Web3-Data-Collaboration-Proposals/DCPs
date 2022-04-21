@@ -1,10 +1,10 @@
 ---
 dcp: DCP-0
 title: DCP Purpose & Guidelines
-description: The Genesis Proposal of DCP, describe how does DCP work.
-author: Wenqing Yu@KNN3 Network (@wenqingyu), Vista.hw.Williams@PodDB (@vistahw)
+description: The Genesis Proposal of DCP.
+author: Wenqing Yu, Vista.hw.Williams
 status: Published
-created: <2022-04-15>
+created: 2022-04-15
 ---
 
 
