@@ -1,3 +1,14 @@
+---
+dcp: DCP-0
+title: DCP Purpose & Guidelines
+description: The Genesis Proposal of DCP.
+author: Wenqing Yu, Vista.hw.Williams
+status: Published
+created: 2022-04-15
+---
+
+
+This is originally inspired by POD: https://github.com/PodDBio/DCPs
 
 ## DCP
 Data Collaboration Proposals (DCP) describe standards for Web3 data collaboration, including data schema specifications, data source/data structure for tracking & collecting, and data schema for decoding structured outcomes. The DCP is tracked & managed under the https://github.com/Web3-Data-Collaboration-Proposals/DCPs repository.
