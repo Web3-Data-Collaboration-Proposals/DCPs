@@ -3,7 +3,7 @@ DCP: 7
 Title: Next.ID
 Description: 
 Author: Next.ID
-Status: 
+Status: Published
 Type: DIDs
 Category: 
 Created: 
