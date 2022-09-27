@@ -10,6 +10,4 @@ DCP-7 is integrating Next.ID as DIDs into KNN3 relational database.
 
 ### Contributor
 
-Next.ID
-
-Website:[ https://next.id/](https://quest3.xyz/)
+Next.ID Website:[ https://next.id/](https://quest3.xyz/)
