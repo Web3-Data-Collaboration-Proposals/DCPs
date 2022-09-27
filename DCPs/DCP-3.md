@@ -1,36 +1,29 @@
 ---
-DCP: 3
-Title: Impossible Finance Loyalty System
-Description: 
-Author: Impossible Finance
-Status: Published
-Type: #Proof-of-Action-credentials #Membership
-Category: Data component
-Created: 2022-04-12
+dcp: 3
+title: Impossible Finance Loyalty System
+description: 
+author: 
+status: Published
+created: 2022-3-15
 ---
 
-## Abstract
+## Summary
 
-DCP - 3 is the fundamental framework to construct Impossible Finance’s loyalty program. In order to validate if a web3 user is eligible for an Impossible community fan, there is a minimum $IF token holding threshold setup. In the future, these qualification criteria can be extended as the fans system requires more sophisticated conditions. The Impossible Friends group consist of power and loyal users in the Impossible community, launchpad users can enjoy various benefits and grow with the Impossible in a meaningful and symbiotic way. 
+Name: Impossible Finance Loyalty System
 
-## Motivation
+Website:
 
-This application could bring membership system in a full Web3 structure, adapting on-chain data to power decentralized community in building the community infrastructure in Impossible Finance.  
-
-
-Website: https://impossible.finance
-
-Github: https://github.com/ImpossibleFinance
+Github:
 
 ## Description
 
 ## Data feature specification
 
-### IF_Token_Balance_Lt_625
+### IF_FANS_TOKEN_THRESHOLD
 
-**Definition**
+**Description**
 
-A proof-of-holding feature to tag who currently holds $IF token >= 625. This is a threshold to be an eligible Impossible Finance fan.
+Find the addresses whose IF token balance larger than 650, and then record them into pg database.
 
 **Data Source**
 
@@ -40,7 +33,7 @@ Contracts:
     - Blockchain: Binance Smart Chain
     - Name: Impossible Finance
 
-**Data Schema**
+**Data Decoding**
 
 Get Transfer Event from contract 0xB0e1fc65C1a741b4662B813eB787d369b8614Af1.
 
@@ -48,20 +41,14 @@ Get Transfer Event from contract 0xB0e1fc65C1a741b4662B813eB787d369b8614Af1.
 Transfer (index_topic_1 address from, index_topic_2 address to, uint256 amount)
 ```
 
-To calculate the real-time holding balance, reduce the balance of the “from” address as balance = balance - amount, and increase the balance of to address as balance = balance + amount.
+After catching each Transfer Event, reduce balance of from address as balance = balance - amount, and increase balance of to address as balance = balance + amount.
 
-*Notice: All data sum needs to be sorted by blockNumber.
+If balance of to address larger than 650, add it into pg.
 
-## Author & contributors
+If from address is already in pg, and after this transfer its balance becomes less than 650, delete it from pg.
 
-Impossible Finance is a multi-chain incubator, launchpad, and swap platform led by Ex-Binance & DeFi veterans. It offers a robust product-first ecosystem that supports top-tier blockchain projects to targeted user audiences. With extensive support from key leaders in the crypto industry, Impossible Finance simplifies DeFi for users to enjoy fairer investing, cheaper trading and better yields.
+*Notice: All data analysis needs to be ordered by blockNumber.
 
-https://lintr.ee/impossiblefi
+## Reference
 
-## References / Citations
-
-More about Impossible Friends:
-https://medium.com/impossiblefinance/the-impossible-friends-community-program-ffb4d8dc3e4d
-
-Imposible Finance GitHub:
-https://github.com/ImpossibleFinance
+## Contributor
