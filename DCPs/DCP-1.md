@@ -14,6 +14,6 @@ Pigeon Envelope protocol is a Web3-native distributing protocol that allows Web3
 
 ### Reference
 
-[https://github.com/Web3-Data-Collaboration-Proposals/DCPs/blob/published/DCPs/DCP-1.md](DCP-1.md)
+{% embed url="https://github.com/Web3-Data-Collaboration-Proposals/DCPs/blob/published/DCPs/DCP-1.md" %}
 
 ### Contributor
