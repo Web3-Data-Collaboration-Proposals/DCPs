@@ -1,6 +1,13 @@
-# DCP-3
+---
+dcp: 3
+title: Impossible Finance Loyalty System
+description: 
+author: 
+status: Published
+created: 2022-3-15
+---
 
-### Summary
+## Summary
 
 Name: Impossible Finance Loyalty System
 
@@ -8,11 +15,11 @@ Website:
 
 Github:
 
-### Description
+## Description
 
-### Data feature specification
+## Data feature specification
 
-#### IF\_FANS\_TOKEN\_THRESHOLD
+### IF_FANS_TOKEN_THRESHOLD
 
 **Description**
 
@@ -20,11 +27,11 @@ Find the addresses whose IF token balance larger than 650, and then record them 
 
 **Data Source**
 
-Contracts:
+Contracts: 
 
-* 0xB0e1fc65C1a741b4662B813eB787d369b8614Af1
-  * Blockchain: Binance Smart Chain
-  * Name: Impossible Finance
+- 0xB0e1fc65C1a741b4662B813eB787d369b8614Af1
+    - Blockchain: Binance Smart Chain
+    - Name: Impossible Finance
 
 **Data Decoding**
 
@@ -40,8 +47,8 @@ If balance of to address larger than 650, add it into pg.
 
 If from address is already in pg, and after this transfer its balance becomes less than 650, delete it from pg.
 
-\*Notice: All data analysis needs to be ordered by blockNumber.
+*Notice: All data analysis needs to be ordered by blockNumber.
 
-### Reference
+## Reference
 
-### Contributor
+## Contributor
