@@ -8,5 +8,3 @@
   * [DCP-3 Impossible Finance’s loyalty program](DCPs/DCP-3.md)
   * [DCP-4 to DCP-6 Quest3 on-chain quest system](dcps-examples/dcp-4-to-dcp-6-quest3-on-chain-quest-system.md)
   * [DCP-7 Integration of Next.ID Avatar](dcps-examples/dcp-7-integration-of-next.id-avatar.md)
-  * [DCP-6](dcps-examples/dcp-6.md)
-  * [DCP-7](dcps-examples/dcp-7.md)
